@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.contenedor{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://cdn.pixabay.com/photo/2020/03/30/13/29/space-4984262_640.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 2px blanchedalmond;
+    
+
+}
+.contenedor2{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://i.pinimg.com/736x/da/57/ed/da57edfc3134625387d85eb02014bc10.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid 2px blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.empezar{
+    height: 40%;
+    width: 50%;
+    border: solid 3px aliceblue;
+    color: aliceblue;
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.empezar:hover{
+    color: rgb(74, 35, 218);
+    background-color: rgba(246, 245, 248, 0.5);
+    
+}
+.ganador{
+    font-size: 30px;
+    color: rgb(238, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+ 
+
+}
+.opciones{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    
+    
+}
+.piedra img{
+    height: 70%;
+    width: 70%;
+    background-color: aliceblue;
+    justify-content: center;
+
+   
+}
+
+.papel img{
+    height: 70%;
+    width: 70%;
+    background-color: aliceblue;
+ 
+}
+.tijera img{
+    height: 70%;
+    width: 70%;
+    background-color: aliceblue;
+
+}
+.ganador2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    color: rgb(3, 2, 2);
+}
+.usuario{
+    height: 40%;
+    width: 15%;
+    border: 3px solid aliceblue;
+    color: aliceblue;
+    background-color: rgba(41, 24, 192, 0.336);
+    text-align: center;
+    font-size: 25px;
+
+   
+}
+.usuario2{
+    height: 83%;
+    width: 100%;
+    border: 3px solid aliceblue;
+    color: aliceblue;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maquina{
+    height: 40%;
+    width: 15%;
+    border: 3px solid aliceblue;
+    color: aliceblue;
+    background-color: rgba(41, 24, 192, 0.336);
+    text-align: center;
+    font-size: 25px;
+
+    
+    
+
+}
+.maquina2{
+    height: 83%;
+    width: 100%;
+    border: 3px solid aliceblue;
+    color: aliceblue;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.empate{
+    height: 40%;
+    width: 15%;
+    border: 3px solid aliceblue;
+    color: aliceblue;
+    background-color: rgba(41, 24, 192, 0.336);
+    text-align: center;
+    font-size: 25px;
+
+
+}
+.empate2{
+    height: 83%;
+    width: 100%;
+    border: 3px solid aliceblue;
+    font-size: 50px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+@media(max-width:1399px){
+    .empezar{
+        
+        font-size: 15px;
+    }
+    .ganador{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .usuario{
+        font-size: 15px;
+        width: 20%;
+    }
+    .usuario2{
+        font-size: 15px;
+        height: 86%;
+    }
+    .maquina{
+        font-size: 15px;
+        width: 20%;
+        
+    }
+    .maquina2{
+        font-size: 15px;
+        height: 86%;
+
+    }
+    .empate{
+        font-size: 15px;
+        width: 20%;
+    }
+    .empate2{
+        font-size: 15px;
+        height: 86%;
+
+    }
+}
+@media(max-width:475px){
+    .usuario{
+        font-size:10px ;
+    }
+    .maquina{
+        font-size:10px ;
+        
+    }
+    .empate{
+        font-size:10px ;
+
+    }
+}
